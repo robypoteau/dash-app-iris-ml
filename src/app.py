@@ -153,7 +153,7 @@ app.layout = html.Div(
             children=[
                 generate_table(scores)
             ],
-            style={'margin':'auto', 'width':'33%'}
+            style={'margin':'auto', 'width':'20%'}
         ),
         html.Div(
             [   # Model performance and feature importances.
