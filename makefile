@@ -18,6 +18,9 @@ test:
 	    --verbose \
 	    app tests
 
+build-model:
+		python apps/build-model.py
+
 run:
 		export FLASK_ENV=development; \
 		export FLASK_APP=main.py; \
